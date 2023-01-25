@@ -12,8 +12,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a2531a15c5e80340a6ac683df7a6339, type: 3}
   m_Name: 2
   m_EditorClassIdentifier: 
-  intrebare: 
-  raspunsuri: []
+  intrebare: Alege raspunsul corect
+  raspunsuri:
+  - info: CORECT
+    esteCorect: 0
+  - info: GRESIT
+    esteCorect: 1
+  - info: TDAWD
+    esteCorect: 0
+  - info: ADWDAW
+    esteCorect: 0
   timp: 0
   secunde: 0
   tipRas: 0

@@ -9,16 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6a2531a15c5e80340a6ac683df7a6339, type: 3}
-  m_Name: 1
+  m_Script: {fileID: 11500000, guid: e3a80c0dba4e3194eb8fc33efbac8a3f, type: 3}
+  m_Name: GameEvent
   m_EditorClassIdentifier: 
-  intrebare: '2 + 2 = '
-  raspunsuri:
-  - info: 1
-    esteCorect: 0
-  - info: 4
-    esteCorect: 1
-  timp: 0
-  secunde: 0
-  tipRas: 0
-  scor: 10
+  scorFinalCurent: 0

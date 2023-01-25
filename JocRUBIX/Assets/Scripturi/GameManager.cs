@@ -21,12 +21,10 @@ public class GameManager : MonoBehaviour
     {
         IncarcaIntrebari();
 
-        foreach (var intrebare in intrebari)
-        {
-            Debug.Log(intrebare.Intrebare);
-        }
+        var seed = UnityEngine.Random.Range(int.MinValue, int.MaxValue);
+        UnityEngine.Random.InitState(seed);
 
-       // Display();
+        Display();
     }
 
 

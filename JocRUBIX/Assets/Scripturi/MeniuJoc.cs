@@ -17,6 +17,8 @@ public class MeniuJoc : ScriptableObject
 
     public delegate void ScoreUpdateCallback();
     public ScoreUpdateCallback ScoreUpdate;
+
+    [HideInInspector]
     public int scorFinalCurent;
 
 
